@@ -13,17 +13,17 @@ public class SocketTrigger : MonoBehaviour
 
     private void Awake()
     {
-        // AudioSource optional holen
+        
         audioSource = GetComponent<AudioSource>();
-        if (audioSource == null)
-        {
-            Debug.LogWarning("Keine AudioSource gefunden! Sound wird nicht abgespielt.");
-        }
+        //if (audioSource == null)
+      // {
+           // Debug.LogWarning("Keine AudioSource gefunden! Sound wird nicht abgespielt.");
+       // }
 
-        if (successSound == null)
-        {
-            Debug.LogWarning("Kein SuccessSound zugewiesen!");
-        }
+       // if (successSound == null)
+      //  {
+            // Debug.LogWarning("Kein SuccessSound zugewiesen!");
+        //}
 
         // Text zu Beginn leer machen
         if (numberText != null)

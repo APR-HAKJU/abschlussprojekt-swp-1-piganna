@@ -1317,7 +1317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3fd0de8ced334560b10d063f6b7b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
-  sceneName: MainRoom
+  sceneName: door_2
   interactionDistance: 2
   interactionKey: 101
 --- !u!1 &522269238 stripped
@@ -4346,7 +4346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3fd0de8ced334560b10d063f6b7b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
-  sceneName: 
+  sceneName: MainRoom
   interactionDistance: 2
   interactionKey: 101
 --- !u!1 &1947972170 stripped
@@ -4779,7 +4779,6 @@ MonoBehaviour:
   - {fileID: 1146235329}
   clearButton: {fileID: 1721886695}
   enterButton: {fileID: 808712125}
-  wrongPasswordDisplayTime: 2
   exitDoor: {fileID: 1322911213}
   passwordPadUI: {fileID: 339799242}
 --- !u!4 &2106230495
