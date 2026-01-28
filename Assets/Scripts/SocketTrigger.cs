@@ -15,7 +15,7 @@ public class SocketTrigger : MonoBehaviour
     {
         
         audioSource = GetComponent<AudioSource>();
-      
+    
         if (numberText != null)
         {
             numberText.text = "";
