@@ -12,7 +12,7 @@ public class PasswordPad : MonoBehaviour
     [SerializeField] private Button[] numberButtons = new Button[9]; // Buttons 1-9
     [SerializeField] private Button clearButton;
     [SerializeField] private Button enterButton;
-    [SerializeField] private float wrongPasswordDisplayTime = 2f;
+    //[SerializeField] private float wrongPasswordDisplayTime = 2f;
 
     [SerializeField] public GameObject exitDoor; // Reference to the exit door GameObject
 
