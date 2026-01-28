@@ -15,17 +15,7 @@ public class SocketTrigger : MonoBehaviour
     {
         
         audioSource = GetComponent<AudioSource>();
-        //if (audioSource == null)
-      // {
-           // Debug.LogWarning("Keine AudioSource gefunden! Sound wird nicht abgespielt.");
-       // }
-
-       // if (successSound == null)
-      //  {
-            // Debug.LogWarning("Kein SuccessSound zugewiesen!");
-        //}
-
-        // Text zu Beginn leer machen
+        
         if (numberText != null)
         {
             numberText.text = "";
@@ -41,6 +31,7 @@ public class SocketTrigger : MonoBehaviour
             if (audioSource != null && successSound != null)
             {
                 audioSource.PlayOneShot(successSound);
+                Debug.Log("Success sound played.");
             }
 
             // Zahl 1 im Text anzeigen
