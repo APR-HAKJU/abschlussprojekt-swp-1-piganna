@@ -1,4 +1,4 @@
-der auskommenteire code,ist der notwendig? using UnityEngine;
+ using UnityEngine;
 using TMPro;
 
 public class SocketTrigger : MonoBehaviour
